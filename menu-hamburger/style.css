@@ -1,0 +1,137 @@
+/* Styles globaux */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #777;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0000CC;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+h1, h2, h3, header nav {
+  font-family: 'Bree Serif', serif;
+  font-weight: normal;
+}
+
+h1, h2, h3 {
+  color: #DD8B0C;
+  text-align: left;
+}
+
+h1 {
+  font-size: 2.8em;
+  line-height: 1.4;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8em;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height: 1.2;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Largeur des contenus */
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styles du HEADER */
+.logo {
+  text-align: center;
+}
+
+.logo a:hover {
+  opacity: 0.8;
+}
+
+header {
+  padding: 20px 5%;
+  position: relative;
+}
+
+header nav {
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 250px;
+}
+
+header nav .btnHamburger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid #DD8B0C;
+  background-color: #FFF;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin: 10px 0;
+}
+
+header nav .btnHamburger .fas {
+  color: #DD8B0C;
+}
+
+header nav ul {
+  padding: 1%;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+}
+
+header nav ul.close {
+  display: none;
+}
+
+header nav ul.open {
+  display: block;
+}
+
+header nav a {
+  color: #DD8B0C;
+  font-size: 1.2em;
+  display: block;
+  width: 100%;
+  transition: All 1s ease-in-out;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+header nav a:hover {
+  color: #824C19;
+}
+
+main {
+  text-align: justify;
+  min-height: 420px;
+}
+
+footer {
+  text-align: center;
+  color: #DD8B0C;
+  padding: 0 2%;
+}
